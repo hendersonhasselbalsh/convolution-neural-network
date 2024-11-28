@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main-Project">
+      <UniqueIdentifier>{1b50010a-9047-4b88-8a1a-68782a5b5631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{fead4a41-3e5e-4427-8a4f-b7253fb12a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNN">
+      <UniqueIdentifier>{12beed3f-1671-480c-9962-090d7ff3b6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNN\Builder">
+      <UniqueIdentifier>{06402ab8-587b-4db5-8608-799b957cd0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processing-Layers">
+      <UniqueIdentifier>{1335dec7-ed25-4165-8cd7-c2f39307bfcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processing-Layers\Activation-Cell">
+      <UniqueIdentifier>{a83f1b72-312f-4107-a69f-73f29ee1ae2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processing-Layers\Convolution-cell">
+      <UniqueIdentifier>{000b6122-290d-413a-b9f6-3e9fc5221f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processing-Layers\Pooling-Cell">
+      <UniqueIdentifier>{d49bc41f-df23-47c5-9acf-ae75caa3af5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data-Maneger">
+      <UniqueIdentifier>{ab91b85b-3c11-4d9c-8d7b-8d1304b58568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feed-Forward">
+      <UniqueIdentifier>{34efc62a-b296-43a2-a6e1-705713b9b016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feed-Forward\Activation-Func">
+      <UniqueIdentifier>{58009cbb-07c1-42e8-a3af-636317d0c354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feed-Forward\Builder">
+      <UniqueIdentifier>{d32df75e-f992-4af7-be72-d17e8ca279ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feed-Forward\Layer">
+      <UniqueIdentifier>{8fff43f1-a4ef-4154-9b0e-2ecaaf0de37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feed-Forward\Loss-Func">
+      <UniqueIdentifier>{1f77656b-0f97-4023-9111-00ad6ce96418}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main-Project\main.cpp">
+      <Filter>Main-Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CNN\cnn.cpp">
+      <Filter>CNN</Filter>
+    </ClCompile>
+    <ClCompile Include="CNN\Builder\CNNbuilder.cpp">
+      <Filter>CNN\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Processing-Cells\Activation-Cell\ActivationCell.cpp">
+      <Filter>Processing-Layers\Activation-Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Processing-Cells\Convolution-Cell\ConvolutionCell.cpp">
+      <Filter>Processing-Layers\Convolution-cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Processing-Cells\Pooling-Cell\pooling.cpp">
+      <Filter>Processing-Layers\Pooling-Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Data-Maneger\data-maneging.cpp">
+      <Filter>Data-Maneger</Filter>
+    </ClCompile>
+    <ClCompile Include="FeedForward-Neural-Network\Activation-Func\activation-functions.cpp">
+      <Filter>Feed-Forward\Activation-Func</Filter>
+    </ClCompile>
+    <ClCompile Include="FeedForward-Neural-Network\multy-layer-perceptron.cpp">
+      <Filter>Feed-Forward</Filter>
+    </ClCompile>
+    <ClCompile Include="FeedForward-Neural-Network\Builder\mlp-builder.cpp">
+      <Filter>Feed-Forward\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="FeedForward-Neural-Network\Layer\layer.cpp">
+      <Filter>Feed-Forward\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="FeedForward-Neural-Network\Loss-Function\lost-function.cpp">
+      <Filter>Feed-Forward\Loss-Func</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\basic-includes.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CNN\cnn.h">
+      <Filter>CNN</Filter>
+    </ClInclude>
+    <ClInclude Include="CNN\Builder\CNNbuilder.h">
+      <Filter>CNN\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Processing-Cells\Activation-Cell\ActivationCell.h">
+      <Filter>Processing-Layers\Activation-Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Processing-Cells\ProcessingUnity.h">
+      <Filter>Processing-Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Processing-Cells\Convolution-Cell\ConvolutionCell.h">
+      <Filter>Processing-Layers\Convolution-cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Processing-Cells\Pooling-Cell\pooling.h">
+      <Filter>Processing-Layers\Pooling-Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Data-Maneger\data-maneging.h">
+      <Filter>Data-Maneger</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedForward-Neural-Network\Activation-Func\activation-functions.h">
+      <Filter>Feed-Forward\Activation-Func</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedForward-Neural-Network\multy-layer-perceptron.h">
+      <Filter>Feed-Forward</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedForward-Neural-Network\Builder\mlp-builder.h">
+      <Filter>Feed-Forward\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedForward-Neural-Network\Layer\layer.h">
+      <Filter>Feed-Forward\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedForward-Neural-Network\Loss-Function\lost-function.h">
+      <Filter>Feed-Forward\Loss-Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Main-Project\main-utils.h">
+      <Filter>Main-Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

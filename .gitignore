@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#---------------------------------
+dependencies/opencv-4.8.1/bin/
